@@ -4,17 +4,11 @@
 </head>
 
 <body>
+{% for msg in messages %}
 <hr>
-<h2>Message!</h2>
+<h2>{{msg}}</h2>
 <hr>
-
-<hr>
-<h2>Hello! Flask!</h2>
-<hr>
-
-<hr>
-<h2>Flask is awesome!</h2>
-<hr>
+{% endfor %}
 
 
 </body>
