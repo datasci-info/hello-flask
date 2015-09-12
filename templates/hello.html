@@ -1,0 +1,21 @@
+<!doctype html>
+<head>
+  <title>Hello from Flask</title>
+</head>
+
+<body>
+{% if name %}
+  <h1>Hello {{ name }}!</h1>
+{% else %}
+  <h1>Hello World!</h1>
+{% endif %}
+
+<ul>
+{% for i in exampleList %}
+<li>
+  <h2>i = {{i}}</h2>
+</li>
+{% endfor %}
+</ul>
+
+</body>
